@@ -3,10 +3,11 @@ import '../../styles/header.css';
 
 const styles = {
   headerStyle: {
-    background: 'red',
+    background: '#82B7D7',
   },
   headingStyle: {
     fontSize: '100px',
+    color: '98afb5'
   },
 };
 
@@ -16,10 +17,14 @@ function header() {
       <h1 style={styles.headingStyle}>Coby Walsh</h1>
       <nav className="navBar">
         <ul>
-        <li> <a href="aboutMe">About Me</a></li>
-        <li> <a href="contact">Contact</a></li>
-        <li> <a href="portfolio">Portfolio</a></li>
-        <li> <a href="resume">Resume</a></li>
+        <li> <a href="#About Me">About Me</a>
+        </li>
+        <li> <a href="#Contact">Contact</a>
+        </li>
+        <li> <a href="#Portfolio">Portfolio</a>
+        </li>
+        <li> <a href="#Resume">Resume</a>
+        </li>
         </ul>
       </nav>
     </header>
