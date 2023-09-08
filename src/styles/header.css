@@ -1,6 +1,7 @@
 .header {
     background: #b71775;
     height: 200px;
+    text-align: right;
   }
   
   .header h1 {
@@ -9,5 +10,9 @@
     text-align: center;
     color: white;
     font-size: 3rem;
+  }
+  
+  .navBar {
+    text-align: right;
   }
   
