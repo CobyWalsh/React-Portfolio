@@ -12,7 +12,7 @@ const styles = {
   
   function footer() {
     return (
-      <footer style={styles.footerStyle} className="footer">
+      <footer style={styles.footerStyle} id="myFooter" className="footer">
         <h1 style={styles.FooterStyle}>Contact Icons</h1>
       </footer>
     );

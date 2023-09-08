@@ -13,7 +13,7 @@ const styles = {
 
 function resume() {
   return (
-    <header style={styles.resumeStyle} className="resume">
+    <header style={styles.resumeStyle} id="myResume" className="resume">
       <h1 style={styles.ResumeStyle}>Resume</h1>
     </header>
   );

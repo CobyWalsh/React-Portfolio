@@ -9,7 +9,7 @@ const styles = {
 
 function aboutMe() {
   return (
-    <section style={styles.aboutMeStyles} className="aboutMe">
+    <section style={styles.aboutMeStyles}  id="AboutMe" className="aboutMe">
       <h2>About Me</h2>
       <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem

@@ -1,23 +1,23 @@
 import React from 'react';
-import '../../styles/contact.css';
+import '../../styles/portfolio.css';
 
 
 const styles = {
-  contactStyle: {
+  portfolioStyle: {
     background: 'red',
   },
-  contactMeStyle: {
+  myPortfolioStyle: {
     fontSize: '100px',
   },
 };
 
-function contact() {
+function portfolio() {
   return (
-    <header style={styles.contactStyle} className="contact">
-      <h1 style={styles.contactMeStyle}>Contact Me</h1>
+    <header style={styles.portfolioStyle} id="myPortfolio" className="portfolio">
+      <h1 style={styles.myPortfolioStyle}>Portfolio</h1>
     </header>
   );
 }
 
-export default contact;
+export default portfolio;
 

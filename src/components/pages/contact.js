@@ -13,7 +13,7 @@ const styles = {
 
 function contact() {
   return (
-    <header style={styles.contactStyle} className="contact">
+    <header style={styles.contactStyle} id="contactMe" className="contact">
       <h1 style={styles.contactMeStyle}>Contact Me</h1>
     </header>
   );
