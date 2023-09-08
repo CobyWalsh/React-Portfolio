@@ -15,18 +15,6 @@ function header() {
   return (
     <header style={styles.headerStyle} className="header">
       <h1 style={styles.headingStyle}>Coby Walsh</h1>
-      <nav className="navBar">
-        <ul>
-        <li> <a href="#About Me">About Me</a>
-        </li>
-        <li> <a href="#Contact">Contact</a>
-        </li>
-        <li> <a href="#Portfolio">Portfolio</a>
-        </li>
-        <li> <a href="#Resume">Resume</a>
-        </li>
-        </ul>
-      </nav>
     </header>
   ); 
 }
