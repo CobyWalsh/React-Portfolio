@@ -14,14 +14,16 @@ function header() {
   return (
     <header style={styles.headerStyle} className="header">
       <h1 style={styles.headingStyle}>Coby Walsh</h1>
-      <nav>
-        resume
-        portfolio
-        about me
+      <nav class="navBar">
+        <ul>
+        <li> <a href="#aboutMe">About Me</a></li>
+        <li> <a href="#contact">Contact</a></li>
+        <li> <a href="#portfolio">Portfolio</a></li>
+        <li> <a href="#resume">Resume</a></li>
+        </ul>
       </nav>
     </header>
-  );
-  
+  ); 
 }
 
 export default header;
