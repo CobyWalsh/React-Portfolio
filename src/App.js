@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import NavTabs from './navTabs';
-import AboutMe from './aboutMe'; 
-import Portfolio from './portfolio';
-import Contact from './contact';
-import Resume from './resume';
+import NavTabs from './components/pages/navTabs';
+import AboutMe from './components/pages/aboutMe'; 
+import Portfolio from './components/pages/portfolio';
+import Contact from './components/pages/contact';
+import Resume from './components/pages/resume';
 
 function App() {
   const [currentPage, setCurrentPage] = React.useState('aboutMe');
