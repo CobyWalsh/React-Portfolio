@@ -17,6 +17,8 @@ function header() {
       <h1 style={styles.headingStyle}>Coby Walsh</h1>
       <nav className="navBar">
         <ul>
+        <li> <a href="#Header">Home</a>
+        </li>
         <li> <a href="#About Me">About Me</a>
         </li>
         <li> <a href="#Contact">Contact</a>

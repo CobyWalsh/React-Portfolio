@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavTabs from './components/pages/navTabs';
+import Header from './components/pages/header'; 
 import AboutMe from './components/pages/aboutMe'; 
 import Portfolio from './components/pages/portfolio';
 import Contact from './components/pages/contact';
@@ -16,11 +17,15 @@ function App() {
   return (
     <Router>
       <div>
-        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-        <Route exact path="/" component={AboutMe} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
+        <Routes>
+        <Route path="/" element={<Header />} />
+        <Route path="/header" element={<Header />} />
+          <Route path="/aboutMe" element={<AboutMe />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
       </div>
     </Router>
   );

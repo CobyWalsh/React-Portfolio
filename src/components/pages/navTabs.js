@@ -1,13 +1,13 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 // Here I am using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage }) {
-    const history = useHistory();
+    const navigate = useNavigate();
   
     const handlePageChange = (page) => {
-        history.push(`/${page}`);
+        navigate(`/${page}`);
     };
   return (
     <ul className="nav nav-tabs">
