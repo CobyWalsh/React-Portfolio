@@ -19,4 +19,11 @@
     color: #9604d9;
 
   }
+  .applications-header .figure img  {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
   

@@ -1,6 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
+const styles = {
+  navTabsStyle: {
+    background: '#d3f3f1',
+    fontSize: '20px'
+  },
+}
+
 // Here I am using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage }) {
@@ -10,6 +17,7 @@ function NavTabs({ currentPage }) {
         navigate(`/${page}`);
     };
   return (
+      <header style={styles.navTabsStyle} id="navTabs" className="navTabs">
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -53,6 +61,7 @@ function NavTabs({ currentPage }) {
         </a>
       </li>
     </ul>
+    </header>
   );
 }
 
