@@ -24,6 +24,15 @@ function portfolio() {
                         </figure>
                     </div>
                     </div>
+                    <div className="applications-other">
+                    <div>
+                        <figure className="figure2">
+                            <figcaption>Group Project</figcaption>
+                            <a href="https://dry-spire-79285-5c643f77bdb5.herokuapp.com/">Hobby Tracker</a>
+                            <img src="00900014 copy.jpg" alt="A old wooden parks sigh in the desert"/>
+                        </figure>
+                        </div>
+                    </div>
     </header>
   );
 }
