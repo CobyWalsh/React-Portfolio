@@ -4,6 +4,7 @@ import '../../styles/footer.css';
 const styles = {
     footerStyle: {
       background: 'blue',
+      fontSize: '20px',
     },
     FooterStyle: {
       fontSize: '60px',

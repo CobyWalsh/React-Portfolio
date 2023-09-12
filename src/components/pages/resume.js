@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/resume.css";
 import MyResume from "../../assets/Coby Walsh Resume.pdf";
+import { FaGithub } from 'react-icons/fa'; 
 
 const styles = {
   resumeStyle: {
@@ -9,6 +10,9 @@ const styles = {
   ResumeStyle: {
     fontSize: "100px",
   },
+  iconStyles: {
+    fontSize: '40px'
+  }
 };
 
 function resume() {
@@ -78,6 +82,16 @@ function resume() {
 
       <button onClick={handleDownloadResume}>Download Resume</button>
     </div>
+    <footer style={styles.footerStyles}>
+        {/* GitHub link */}
+        <a
+          href="https://github.com/CobyWalsh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub style={styles.iconStyles} /> GitHub
+        </a>
+      </footer>
     </header>
   );
 }

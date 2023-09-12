@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/header.css';
+import { FaGithub } from 'react-icons/fa'; 
 
 const styles = {
   headerStyle: {
@@ -9,6 +10,9 @@ const styles = {
     fontSize: '100px',
     color: '98afb5'
   },
+  iconStyles: {
+    fontSize: '40px'
+  }
 };
 
 function header() {
@@ -22,6 +26,16 @@ function header() {
                         </figure>
                     </div>
                     </div>
+                    <footer style={styles.footerStyles}>
+        {/* GitHub link */}
+        <a
+          href="https://github.com/CobyWalsh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub style={styles.iconStyles} /> GitHub
+        </a>
+      </footer>
     </header>
   ); 
 }

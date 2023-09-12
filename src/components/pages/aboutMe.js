@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/aboutMe.css";
+import { FaGithub } from 'react-icons/fa'; 
 
 const styles = {
   aboutMeStyles: {
@@ -35,6 +36,16 @@ function aboutMe() {
         I'm a lifelong learner and adventurer, always seeking new experiences
         and challenges. I can't wait to see where this journey takes me next!
       </p>
+      <footer style={styles.footerStyles}>
+        {/* GitHub link */}
+        <a
+          href="https://github.com/CobyWalsh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub style={styles.iconStyles} /> GitHub
+        </a>
+      </footer>
     </section>
   );
 }

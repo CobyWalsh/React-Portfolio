@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/portfolio.css';
-
+import { FaGithub } from 'react-icons/fa'; 
 
 const styles = {
   portfolioStyle: {
@@ -9,6 +9,9 @@ const styles = {
   myPortfolioStyle: {
     fontSize: '100px',
   },
+  iconStyles: {
+    fontSize: '40px'
+  }
 };
 
 function portfolio() {
@@ -33,6 +36,16 @@ function portfolio() {
                         </figure>
                         </div>
                     </div>
+                    <footer style={styles.footerStyles}>
+        {/* GitHub link */}
+        <a
+          href="https://github.com/CobyWalsh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub style={styles.iconStyles} /> GitHub
+        </a>
+      </footer>
     </header>
   );
 }
