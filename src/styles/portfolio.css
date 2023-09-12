@@ -10,4 +10,16 @@
     color: white;
     font-size: 3rem;
   }
-  
+  .applications-banner figure {
+    width: 25%;
+    display: block;
+    margin-left: 19rem;
+    margin-right: auto;
+  }
+  /* Optionally, center the image horizontally */
+  .applications-other .figure img {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
