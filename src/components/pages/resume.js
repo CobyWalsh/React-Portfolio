@@ -4,7 +4,7 @@ import MyResume from "../../assets/Coby Walsh Resume.pdf";
 
 const styles = {
   resumeStyle: {
-    background: "red",
+    background: "#82f4b1",
   },
   ResumeStyle: {
     fontSize: "100px",
@@ -19,8 +19,9 @@ function resume() {
     anchor.click();
   };
   return (
-    <div style={styles.resumeStyle} id="myResume" className="resume">
+    <header style={styles.resumeStyle} id="myResume" className="resume">
       <h1 style={styles.ResumeStyle}>Resume</h1>
+      <div id="resumeInfo" className="resumeInfo">
       <h2>Coby Walsh</h2>
       <h3>Phone: 509-389-7222</h3>
       <h3>Email: cobywalsh89@gmail.com</h3>
@@ -33,9 +34,7 @@ function resume() {
         <li> Leadership experience</li>
         <li>Teaching experience</li>
         <li>10 years of customer service experience</li>
-      </ul>
-      <h4>Experience</h4>
-      <ul>
+      <h4>Experience:</h4>
         <h5>University of Utah Emergency Department</h5>
         <li>Gain IV access</li>
         <li>Assist in traumas, criticals, and brain attacks</li>
@@ -67,7 +66,7 @@ function resume() {
         <li>Program logistics</li>
         <li>Trip leader mentoring</li>
         <li>Trip leader assistance</li>
-        <h4>Education</h4>
+        <h4>Education:</h4>
         <li>Eastern Washington University</li>
         <li>Studied Recreation Management</li>
         <li>Aerial lift evacuation</li>
@@ -79,6 +78,7 @@ function resume() {
 
       <button onClick={handleDownloadResume}>Download Resume</button>
     </div>
+    </header>
   );
 }
 

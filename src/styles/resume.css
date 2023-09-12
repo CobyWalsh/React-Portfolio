@@ -10,4 +10,15 @@
     color: white;
     font-size: 3rem;
   }
+  .resumeInfo {
+    background: #c6f8ff;
+    height: 100%px;
+    font-size: 20px;
+  }
+  .resumeInfo h4 {
+    font-size: 30px;
+  }
+  .resumeInfo h5 {
+    font-size: 25px;
+  }
   

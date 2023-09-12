@@ -3,7 +3,7 @@ import "../../styles/aboutMe.css";
 
 const styles = {
   aboutMeStyles: {
-    background: "orange",
+    background: "lavender",
   },
 };
 

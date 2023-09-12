@@ -10,4 +10,7 @@
     color: white;
     font-size: 3rem;
   }
-  
+  .contactInfo {
+    background: #ffeda0;
+    height: 200px;
+  }

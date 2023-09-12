@@ -4,7 +4,7 @@ import '../../styles/portfolio.css';
 
 const styles = {
   portfolioStyle: {
-    background: 'red',
+    background: '#2a9d8f',
   },
   myPortfolioStyle: {
     fontSize: '100px',
