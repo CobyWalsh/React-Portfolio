@@ -1,1 +1,4 @@
 # React-Portfolio
+
+## Description
+In this project I have created a single page personal react portfolio. When my porfolio loads I am presented with a home page with navigation links that will take you to a about me page, portfolio page, contact page, and resume page. When I click on the about me page the link will take me to a page that has a description describing myself and my interests. When I click on the portfolio page two of my projects will appear with images and links that take me to the projects webpage. When I click on the contact page it takes me to a page where my contact info is displayed. When I click on the resume link it takes me to my resume page that shows my resume with a button at the bottom of the page where I can download my resume. At the bottom of each page is a footer with a GitHub icon that links to my GitHub account.
