@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.77156aff.css",
+    "main.js": "/React-Portfolio/static/js/main.2f532e5f.js",
+    "static/media/Coby Walsh Resume.pdf": "/React-Portfolio/static/media/Coby Walsh Resume.d9ad6cee25acf01db981.pdf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.77156aff.css.map": "/React-Portfolio/static/css/main.77156aff.css.map",
+    "main.2f532e5f.js.map": "/React-Portfolio/static/js/main.2f532e5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77156aff.css",
+    "static/js/main.2f532e5f.js"
+  ]
+}
